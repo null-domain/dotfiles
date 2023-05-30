@@ -79,6 +79,10 @@ zstyle ':omz:update' frequency 7
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git docker docker-compose pip sudo python rust ssh-agent ubuntu virtualenv)
 
+# ssh-agent settings
+zstyle :omz:plugins:ssh-agent identities github
+zstyle :omz:plugins:ssh-agent quiet yes
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
