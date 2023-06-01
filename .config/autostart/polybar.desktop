@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/nulldomain/.config/polybar/scripts/launch.sh
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name=Polybar
