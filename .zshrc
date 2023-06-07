@@ -114,5 +114,8 @@ export EDITOR='nano'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+setopt completealiases
+
 alias dotfiles='/usr/bin/git --git-dir=/home/nulldomain/.dotfiles/ --work-tree=/home/nulldomain'
 alias python='python3.11'
