@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 # -e - exit immediately if a command exits with a non-zero status
 # -u - treat unset variables as an error when substituting
