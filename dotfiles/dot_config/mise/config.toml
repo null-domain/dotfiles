@@ -1,0 +1,8 @@
+[tools]
+"aqua:hashicorp/terraform" = "latest"
+"aqua:astral-sh/uv" = "latest"
+"aqua:eza-community/eza" = "latest"
+"aqua:neovim/neovim" = "latest"
+go = "1.24.2"
+python = "3.13"
+node = "lts"
