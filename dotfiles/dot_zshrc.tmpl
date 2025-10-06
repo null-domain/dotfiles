@@ -38,6 +38,14 @@ zstyle ':omz:update' mode disabled  # updates handled by chezmoi
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
 
+
+# Custom zstyle settings
+zstyle ':omz:plugins:eza' 'dirs-first' yes
+zstyle ':omz:plugins:eza' 'git-status' yes
+zstyle ':omz:plugins:eza' 'icons' yes
+zstyle ':omz:plugins:eza' 'show-group' no
+
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -45,7 +53,7 @@ zstyle ':omz:update' mode disabled  # updates handled by chezmoi
 # Add wisely, as too many plugins slow down shell startup.
 plugins+=(
     # Tooling
-    git docker docker-compose terraform mise chezmoi {{ if eq .chezmoi.os "darwin" }}macos brew{{ end }}
+    git docker docker-compose terraform mise chezmoi eza {{ if eq .chezmoi.os "darwin" }}macos brew{{ end }}
     # Languages
     python golang
   )
