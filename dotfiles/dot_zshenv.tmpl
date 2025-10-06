@@ -1,0 +1,4 @@
+export EDITOR=nano
+{{- if eq .chezmoi.os "darwin" }}
+export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
+{{- end }}
