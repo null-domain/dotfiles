@@ -5,5 +5,5 @@
 # -o pipefail - return the exit status of the last command in the pipeline that failed
 set -euo pipefail
 
-# config.toml hash: {{ include "dot_config/mise/config.toml" | sha256sum }}
+# config.toml hash: {{ include "dot_config/mise/config.toml.tmpl" | sha256sum }}
 ~/.local/bin/mise upgrade
