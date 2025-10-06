@@ -1,0 +1,6 @@
+[user]
+	name = nulldomain
+	email = git@nulldoma.in
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
