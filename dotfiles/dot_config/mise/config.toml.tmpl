@@ -1,7 +1,7 @@
 [tools]
 "aqua:hashicorp/terraform" = "latest"
 "aqua:astral-sh/uv" = "latest"
-{{- if ne .chezmoi.os "darwin" -}}
+{{ if ne .chezmoi.os "darwin" -}}
 "aqua:eza-community/eza" = "latest"
 {{ else }}
 eza = "latest"
