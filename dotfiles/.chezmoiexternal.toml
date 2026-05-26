@@ -29,8 +29,3 @@
     exact = true
     stripComponents = 1
     refreshPeriod = "720h"
-
-[".local/share/mise/plugins/eza"]
-    type = "git-repo"
-    url = "ssh://git@github.com/lwiechec/asdf-eza.git"
-        
